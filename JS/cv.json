@@ -1,0 +1,34 @@
+{
+    "utbildningar": [
+      {
+        "skola": "Kunskapens hus, Skene",
+        "program": "Medieprogrammet",
+        "år": "2001-2004"
+      },
+      {
+        "skola": "Yrkeshögskolan i Borås",
+        "program": "Frontend-utvecklare React",
+        "år": "2025-2026"
+      }
+    ],
+    "arbeten": [
+      {
+        "företag": "Releasy Customer Service AB ",
+        "titel": "Kommunikatör",
+        "år": "2017- nuvarande"
+      },
+      
+      {
+        "företag": "Västra Vall vårdcentral",
+        "titel": "Medicinsk sekreterare",
+        "år": "2014-2016"
+      },
+    
+    {
+      "företag": "Idrottens Bingo AB",
+      "titel": "Bingovärdinna",
+      "år": "2003-2015"
+    }
+  ]
+  }
+  

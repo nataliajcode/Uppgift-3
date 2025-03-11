@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Natalia Johansson</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+
+          <li><a href="./about.html">About</a></li>
+
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-section">
+        <h1>Kontakt</h1>
+        <p>
+          Har du några frågor eller vill du komma i kontakt med mig? Fyll gärna
+          i formuläret nedan så hör jag av mig så snart jag kan!
+        </p>
+
+        <form
+          action="mailto:nataliajohanssonmusic@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Namn:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">E-post:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Meddelande:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Skicka</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Natalia Johansson &copy; 2025</p>
+    </footer>
+  </body>
+</html>

@@ -19,7 +19,7 @@ body.light-mode {
 }
 
 body.light-mode nav a {
-    color: #5e5b5b;  /* Mörkgrå textfärg i ljust läge */
+    color: #5e5b5b;  
 }
 .header {
     display: grid;
@@ -48,10 +48,10 @@ body.light-mode nav a {
     bottom: 10rem;
     font-size: 2rem; 
     font-weight: bold; 
-    letter-spacing: 2px; /* Lite större avstånd mellan bokstäverna */
+    letter-spacing: 2px; 
     color: #fff; 
-    text-transform: uppercase; /* Skrev rubriken med versaler */
-    line-height: 1.4; /* Ökade radavståndet så det blir lättare att läsa */
+    text-transform: uppercase;
+    line-height: 1.4; 
     text-align: center; 
 
 }
@@ -61,7 +61,7 @@ body.light-mode nav a {
     text-align: center;
     font-size: 0.9rem;  
     letter-spacing: 3px;
-    line-height: 2; /* Ökat avståndet mellan rader */
+    line-height: 2; 
 }
 
 #loadCvBtn {
@@ -74,7 +74,7 @@ body.light-mode nav a {
     border: none; 
     border-radius: 50px; 
     cursor: pointer; 
-    transition: all 0.3s ease; /* Smidig övergång vid hover */
+    transition: all 0.3s ease; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 

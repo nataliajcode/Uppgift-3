@@ -1,16 +1,17 @@
-//Funktion  för att växla mellan mörk/ljus bakgrund
+//Funktion  för att växla mellan mörk/ljus bakgrund (hämtat info från google/youtube)
 document.getElementById("lightModeBtn").addEventListener("click", function() {
+    
     // Växla mellan ljus och mörkt läge
     document.body.classList.toggle("light-mode");
   
-    // Uppdaterar texten på knappen 
+    // Uppdaterar texten på knappen (hämtat info från google/youtube)
     const btnText = document.body.classList.contains("light-mode") ? "Byt till mörkt läge" : "Byt till ljust läge";
     document.getElementById("lightModeBtn").textContent = btnText;
   });
   
   // Popup för mitt cv
   document.getElementById("loadCvBtn").addEventListener("click", function() {
-   
+
     document.getElementById("cvModal").style.display = "flex";
   
     // Hämtar JSON-filen
@@ -51,7 +52,7 @@ document.getElementById("lightModeBtn").addEventListener("click", function() {
     }
   });
   
-  // Ser till att modalen är dold vid sidstart
+  // Modalen dold vid start
   window.addEventListener("DOMContentLoaded", function() {
     document.getElementById("cvModal").style.display = "none";
   });
